@@ -9,3 +9,7 @@ body * {
 .logo_nav{
    height: 2rem; 
 }
+
+a {
+    color: white;
+}
