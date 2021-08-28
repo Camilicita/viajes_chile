@@ -1,0 +1,11 @@
+body * {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.turquesa {
+    background-color:#259ba8;
+}
+
+.logo_nav{
+   height: 2rem; 
+}

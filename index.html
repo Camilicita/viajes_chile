@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Chile</title>
+    <meta name="author" content="Camila Sánchez Astete">
+    
+    <!--css Bootstrap 4.6.0-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
+    
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    
+    <!--Mi css-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark turquesa fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/img/viajes.svg" alt="logo-nav" class="logo_nav mr-2">Viajes Chile</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#presentacion">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#destacados">Destacados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+  
+  <header class="Inicio container-fluid px-0">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="slider-6">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="slider-7">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="carousel3">
+              </div>
+          </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+      </div>
+  </header>
+
+  <section id="presentacion" class="container-fluid bg-dark text-light text-center p-5">
+        <h1>About</h1>
+        <hr class="turquesa my-4 ">
+        <div class="row">
+          <div class="col-md-4">
+            <i class="fas fa-plane fa-2x turquesa container py-2" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="top" data-content="Aeropuerto"></i>
+            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+          <div class="col-md-4">
+            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <i class="fas fa-mountain fa-2x fa-2x turquesa container py-2" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="top" data-content="Montaña"></i>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-route fa-2x fa-2x turquesa container py-2" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="top" data-content="Mapas"></i>
+            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+        </div>
+  </section>
+
+  <section id="destacados" class="container-fluid bg-dark text-light p-5">
+    <h1 class="text-center">Destacados</h1>
+    <hr class="turquesa my-4">
+    <div class="card-deck">
+      <div class="card text-white border-light turquesa">
+        <img src="assets/img/card1.jpg" class="card-img-top" alt="card1">
+        <div class="card-body">
+          <h5 class="card-title">Lorem Ipsum</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+      <div class="card text-white border-light turquesa">
+        <img src="assets/img/card4.jpg" class="card-img-top" alt="card2">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+      <div class="card text-white border-light turquesa">
+        <img src="assets/img/card3.jpg" class="card-img-top" alt="card3">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+      </div>
+      <div class="card text-white border-light turquesa">
+        <img src="assets/img/card4.jpg" class="card-img-top" alt="card4">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="container-fluid bg-dark text-light p-5">
+    <h1 class="text-center">Contacto</h1>
+    <hr class="turquesa my-4">
+    <div data-tf-widget="qt7VrsT5" style="width:100%;height:400px;color:#FFFFFF;"></div>
+    <script src="//embed.typeform.com/next/embed.js"></script>
+  </section>
+
+  <footer class="container-fluid text-light turquesa">
+    <div class="container py-2 px-5 d-flex justify-content-between align-items-baseline">
+      <p class="font-weight-bold">VIAJES CHILE</p>
+      <div class="rrss">
+        <i class="fab fa-github-square fa-2x px-2"></i>
+        <i class="fab fa-linkedin fa-2x px-2"></i>
+        <i class="fab fa-twitter-square fa-2x px-2"></i>
+        <i class="fab fa-facebook-square fa-2x px-2"></i>
+      </div>
+    </div>
+
+    <section>
+      <h1>CHAO</h1>
+      <p>ducimus facilis voluptatibus laboriosam vitae quod recusandae. Delectus, optio quod? Dolor voluptatibus odio dignissimos voluptates et suscipit ab, sint quod?</p>
+    </section>
+
+  </footer>
+
+    <!-- jQuery 3.6.0 sin slim -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <!--Bootsttrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!--Mi script-->
+    <script src="./assets/js/script.js"></script>
+
+</body>
+</html>
